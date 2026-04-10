@@ -1,0 +1,13 @@
+list_angka = []
+maximum_angka = []
+jumlah_angka = int(input("masukkan jumlah angka: "))
+
+for i in range(jumlah_angka):
+    nilai_angka = int(input(f"masukkan angka-{i+1}: "))
+    list_angka.append(nilai_angka)
+
+maxs = max(list_angka)
+maximum_angka.append(maxs)
+
+print("List awal:", list_angka)
+print("nilai maksimum: ", maxs)
